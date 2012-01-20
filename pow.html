@@ -39,21 +39,38 @@
 </head>
 <body>
 <div id="slides">
-	<div class="slide title">
-		<script>
-			pow.slide.on.show(function() {
-				var logo = pow.slide.el.getElementsByClassName('logo')[0]
-				pow.slide.animate(400, {
-					frame: function(val) {
-						logo.style.height = logo.style.width = 50*Math.min(1, val*4)*(Math.sin(3*Math.PI*val)*(1-val)*.25+1) + "%"
-					},
-					finish: function() {}
-				}).play()
-			})
-		</script>
-		<object class="logo" data="logo.svg"><h1>POW!</h1></object>
-		<h1>A simple web presentation tool.</h1>
-	</div>
+    <div class="slide title">
+        <h1>How to accidentally <br/>shred a web app
+            <em><small>(while pen testing)</small></em></h1>
+        <br/>
+        <p><a href="http://twitter.com/makefoo">@makefoo</a></p>
+    </div>
+    <div class="slide">
+        <h1><strong>@momorientes</strong>:<br/>Go ahead<br/>
+            <a href="http://usa2011.olga-stift.de">http://usa2011.olga-stift.de</a></h1>
+    </div>
+    <div class="slide">
+        <h1>Gonna try my fancy <br/><strong>automated tools</strong> <br/>in a real world
+            scenario</h1>
+        
+    </div>
+    <div class="slide">
+        
+        <h1>
+            <pre>
+<ul>
+<li>nikto2 </li>
+<li>arachni</li>
+<li>sqlmap </li>
+<li>...    </li>
+</ul>
+        <pre>
+        </h1>
+    </div>
+    <div class="slide">
+    <object height="80%" class="logo" data="http://krebsco.de/krebs-v2.png"></object>
+    </div>
+    <!--
 	<div class="slide">
 		<h1>Create simple, powerful presentations using just <strong>HTML</strong> and <strong>JavaScript</strong>.</h2>
 	</div>
@@ -99,7 +116,8 @@
 	</div>
 	<div class="slide" id="info">
 		<p><a href="http://github.com/chromakode/pow">github.com/chromakode/pow</a></p>
-	</div>
+    </div>
+    --!>
 </div>
 </body>
 </html>
